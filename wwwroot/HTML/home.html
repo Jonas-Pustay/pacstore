@@ -1,0 +1,300 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hello Bulma!</title>
+  <link rel="stylesheet" href="../CSS/layout.css">
+  <link rel="stylesheet" href="../CSS/bulma.min.css">
+  <style>
+    .hero {
+      max-height: 100%;
+      overflow-y: auto;
+    }
+
+    .cell {
+      cursor: pointer;
+    }
+
+    .icon-incator {
+      position: absolute;
+      left: 90%;
+      top: 5%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <aside class="is-pulled-left box is-radiusless m-0 px-4 is-align-content-center">
+    <div class="buttons">
+      <a href="home.html" class="button p-4">
+        <figure class="image is-32x32">
+          <img src="../IMG/house_icon.svg" />
+        </figure>
+      </a>
+
+      <a href="update.html" class="button p-4">
+        <figure class="image is-32x32">
+          <img src="../IMG/update_icon.svg" />
+        </figure>
+      </a>
+
+      <a href="installed.html" class="button p-4">
+        <figure class="image is-32x32">
+          <img src="../IMG/bars-4_icon.svg" />
+        </figure>
+      </a>
+    </div>
+  </aside>
+
+  <main class="is-pulled-right">
+    <section class="hero is-fullheight p-3">
+      <!-- Hero head: will stick at the top -->
+      <div class="hero-head">
+        <div class="container my-6">
+          <div class="field is-grouped">
+            <p class="control is-expanded">
+              <input class="input" type="text" placeholder="Find a repository">
+            </p>
+            <p class="control">
+              <button class="button is-info">
+                Search
+              </button>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero content: will be in the middle -->
+      <div class="hero-body is-align-items-stretch p-0 mb-6">
+        <div class="container">
+          <div class="grid is-col-min-15">
+            <div class="cell" onclick="document.location.href = 'program.html';">
+                <div class="card">
+                  <figure class="icon-incator image is-32x32">
+                    <img src="../IMG/valid_icon.png" />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-4">John Smith</p>
+                        <p class="subtitle is-6">@johnsmith</p>
+                      </div>
+                    </div>
+
+                    <div class="content">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
+                      iaculis mauris. <a>@bulmaio</a>. <a href="#">#css</a>
+                      <a href="#">#responsive</a>
+                      <br />
+                      <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="cell">
+              <div class="card">
+                <figure class="icon-incator image is-32x32">
+                  <img src="../IMG/valid_icon.png" />
+                </figure>
+
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4">John Smith</p>
+                      <p class="subtitle is-6">@johnsmith</p>
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
+                    iaculis mauris. <a>@bulmaio</a>. <a href="#">#css</a>
+                    <a href="#">#responsive</a>
+                    <br />
+                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cell">
+              <div class="card">
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4">John Smith</p>
+                      <p class="subtitle is-6">@johnsmith</p>
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
+                    iaculis mauris. <a>@bulmaio</a>. <a href="#">#css</a>
+                    <a href="#">#responsive</a>
+                    <br />
+                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cell">
+              <div class="card">
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4">John Smith</p>
+                      <p class="subtitle is-6">@johnsmith</p>
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
+                    iaculis mauris. <a>@bulmaio</a>. <a href="#">#css</a>
+                    <a href="#">#responsive</a>
+                    <br />
+                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cell">
+              <div class="card">
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4">John Smith</p>
+                      <p class="subtitle is-6">@johnsmith</p>
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
+                    iaculis mauris. <a>@bulmaio</a>. <a href="#">#css</a>
+                    <a href="#">#responsive</a>
+                    <br />
+                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cell">
+              <div class="card">
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4">John Smith</p>
+                      <p class="subtitle is-6">@johnsmith</p>
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
+                    iaculis mauris. <a>@bulmaio</a>. <a href="#">#css</a>
+                    <a href="#">#responsive</a>
+                    <br />
+                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cell">
+              <div class="card">
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4">John Smith</p>
+                      <p class="subtitle is-6">@johnsmith</p>
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
+                    iaculis mauris. <a>@bulmaio</a>. <a href="#">#css</a>
+                    <a href="#">#responsive</a>
+                    <br />
+                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cell">
+              <div class="card">
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4">John Smith</p>
+                      <p class="subtitle is-6">@johnsmith</p>
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
+                    iaculis mauris. <a>@bulmaio</a>. <a href="#">#css</a>
+                    <a href="#">#responsive</a>
+                    <br />
+                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cell">
+              <div class="card">
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4">John Smith</p>
+                      <p class="subtitle is-6">@johnsmith</p>
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
+                    iaculis mauris. <a>@bulmaio</a>. <a href="#">#css</a>
+                    <a href="#">#responsive</a>
+                    <br />
+                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-foot">
+        <div class="container py-5">
+          <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+            <a href="#" class="pagination-previous">Previous</a>
+            <a href="#" class="pagination-next">Next page</a>
+            <ul class="pagination-list">
+              <li><a href="#" class="pagination-link" aria-label="Goto page 1">1</a></li>
+              <li><span class="pagination-ellipsis">&hellip;</span></li>
+              <li><a href="#" class="pagination-link" aria-label="Goto page 45">45</a></li>
+              <li>
+                <a class="pagination-link is-current" aria-label="Page 46" aria-current="page">46</a>
+              </li>
+              <li><a href="#" class="pagination-link" aria-label="Goto page 47">47</a></li>
+              <li><span class="pagination-ellipsis">&hellip;</span></li>
+              <li><a href="#" class="pagination-link" aria-label="Goto page 86">86</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+
+</body>
+
+</html>
